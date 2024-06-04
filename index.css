@@ -1,3 +1,42 @@
-.container h1{
-    color: red;
+nav {
+    background: #1c1c1c;
+    padding: 10px;
+}
+
+.nav-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav-container .navbrand {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-container .nav-itames {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-container .nav-itames li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-container .nav-itames li a:hover {
+    color: orange;
+}
+
+.home-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
 }
