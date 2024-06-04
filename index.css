@@ -11,9 +11,12 @@ nav {
 
 .nav-container .navbrand {
     text-decoration: none;
-    font-weight: 900;
-    font-size: 2rem;
     color: #fff;
+}
+
+.nav-container .navbrand img {
+    width: 50px;
+    height: 40px;
 }
 
 .nav-container .nav-itames {
